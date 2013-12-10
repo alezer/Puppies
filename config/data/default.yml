@@ -1,5 +1,5 @@
 checkout:
-  order_name: Ulises
-  order_address: 123 Bald street
-  order_email: ulises@example.com
+  order_name: Alejandro
+  order_address: 123 Main Street
+  order_email: ale@example.com
   order_pay_type: Check
