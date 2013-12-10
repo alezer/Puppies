@@ -58,15 +58,15 @@ Given(/^I already chosen a puppy to adopt$/) do
 end
 
 When (/^I complete form without a name$/) do
-  on(CheckoutPage).checkout('order_name' => '')
+  on(Checkout).checkout('order_name' => '')
 end
 
 When (/^I complete form without an address$/) do
-  on(CheckoutPage).checkout('order_address' => '')
+  on(Checkout).checkout('order_address' => '')
 end
 
 When (/^I complete form without an email$/) do
-  on(CheckoutPage).checkout('order_email' => '')
+  on(Checkout).checkout('order_email' => '')
 end
 
 Then (/^I should see the error message "([^"]*)"$/) do |message|
