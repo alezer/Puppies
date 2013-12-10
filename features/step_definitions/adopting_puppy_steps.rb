@@ -49,3 +49,26 @@ end
 Then(/^I should see "(.*?)"$/) do |message|
   on(Home).notice.should include message
 end
+
+Given(/^I already chosen a puppy to adopt$/) do
+  visit(Home)
+  on(Home).select_puppy
+  on(Details).adopt_me
+  on(Cart).complete_adoption
+end
+
+When (/^I complete form without a name$/) do
+  on(CheckoutPage).checkout('order_name' => '')
+end
+
+When (/^I complete form without an address$/) do
+  on(CheckoutPage).checkout('order_address' => '')
+end
+
+When (/^I complete form without an email$/) do
+  on(CheckoutPage).checkout('order_email' => '')
+end
+
+Then (/^I should see the error message "([^"]*)"$/) do |message|
+  on(Cart).error_messages.should include message
+end

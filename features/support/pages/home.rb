@@ -9,7 +9,7 @@ class Home
     name_elements.find_index { |the_div| the_div.text == name }
   end
 
-  def select_puppy(name)
+  def select_puppy(name = 'Hanna')
     index = index_for(name)
     button_element(:value => 'View Details', :index => index).click
   end
