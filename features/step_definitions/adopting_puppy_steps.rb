@@ -70,5 +70,5 @@ When (/^I complete form without an email$/) do
 end
 
 Then (/^I should see the error message "([^"]*)"$/) do |message|
-  on(Cart).error_messages.should include message
+  on(Checkout).error_messages.should include message
 end

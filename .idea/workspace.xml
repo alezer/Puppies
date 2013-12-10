@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68244b2e-37ef-4988-9320-2dcf05c142e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/pages/error_panel.rb" />
-      <change type="DELETED" beforePath="C:\Users\azerbetto\test1\features\support\pages\google.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Adopting_puppies.feature" afterPath="$PROJECT_DIR$/features/Adopting_puppies.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/adopting_puppy_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/adopting_puppy_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/checkout.rb" afterPath="$PROJECT_DIR$/features/support/pages/checkout.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/home.rb" afterPath="$PROJECT_DIR$/features/support/pages/home.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test1.iws" />
@@ -22,7 +16,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test1@making_cheese__test1.coverage" NAME="making_cheese: test1 Coverage Results" MODIFIED="1386607329720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test1" />
-    <SUITE FILE_PATH="coverage/test1@Adopting_puppies__test1.coverage" NAME="Adopting_puppies: test1 Coverage Results" MODIFIED="1386706129328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test1" />
+    <SUITE FILE_PATH="coverage/test1@Adopting_puppies__test1.coverage" NAME="Adopting_puppies: test1 Coverage Results" MODIFIED="1386708159340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,19 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Adopting_puppies.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Adopting_puppies.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Adopting_puppies.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="41" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="748">
+            <state line="17" column="35" selection-start="578" selection-end="578" vertical-scroll-proportion="0.25365853" vertical-offset="185" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adopting_puppy_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="adopting_puppy_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppy_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="3" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.3712297" vertical-offset="877" max-vertical-offset="1343">
+            <state line="73" column="3" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -76,6 +70,15 @@
         <entry file="file://$PROJECT_DIR$/features/support/pages/checkout.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/data/default.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="22" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -119,7 +122,6 @@
         <option value="$PROJECT_DIR$/features/support/pages/details.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/puppies.rb" />
         <option value="$PROJECT_DIR$/features/config/data/default.yml" />
-        <option value="$PROJECT_DIR$/config/data/default.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
@@ -128,6 +130,7 @@
         <option value="$PROJECT_DIR$/features/support/pages/cart.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/error_panel.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/home.rb" />
+        <option value="$PROJECT_DIR$/config/data/default.yml" />
         <option value="$PROJECT_DIR$/features/step_definitions/adopting_puppy_steps.rb" />
       </list>
     </option>
@@ -519,7 +522,19 @@
       <created>1386705062072</created>
       <updated>1386705062072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1386707129400</created>
+      <updated>1386707129400</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1386707212399</created>
+      <updated>1386707212399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1386707453092</created>
+      <updated>1386707453092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/data/default.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
@@ -737,23 +745,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Adopting_puppies.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="41" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/home.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/cart.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
@@ -765,9 +759,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/data/default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/cart.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppy_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="3" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.3712297" vertical-offset="877" max-vertical-offset="1343">
+        <state line="73" column="3" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Adopting_puppies.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="35" selection-start="578" selection-end="578" vertical-scroll-proportion="0.25365853" vertical-offset="185" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
