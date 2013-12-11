@@ -72,3 +72,17 @@ end
 Then (/^I should see the error message "([^"]*)"$/) do |message|
   on(Checkout).error_messages.should include message
 end
+
+Then /^I should see "([^"]*)" as the name for line item (\d+)$/ do |name, line_item|
+  on(Cart).cart_line_item(line_item)[1].text.should include name
+  #on(Cart).validate_information(name, line_item)
+end
+
+And /^I should see "([^"]*)" as the subtotal for line item (\d+)$/ do |subtotal,line_item|
+  on(Cart).cart_line_item(line_item)[3].text.should include subtotal
+  #on(Cart).validate_information(subtotal, line_item)
+end
+
+And /^I should see "([^"]*)" as the cart total$/ do |total|
+  on(Cart).validate_total(total)
+end
